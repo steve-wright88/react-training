@@ -6,12 +6,13 @@ The goal of this repository is to create a lot of React components.
 
 To start this project, you can:
 - Clone this project
+- Run `npx create-react-app starter-code`
 - Go inside `starter-code`
-- Run `npm install`
 - Run `npm start`
 
 You can preview the solution here: https://5c6c2a0de07b084ce35373ee--determined-aryabhata-a8a833.netlify.com/
 
+To access the assets, move the `assets/img` folder inside your `src` folder
 
 ## Components | `IdCard`
 
@@ -122,7 +123,7 @@ It takes 8 props:
 
 Take your time to do as close to the output. You probably have to use flexbox.
 
-You can use the Master Card and Visa picture from the `/public/img` folder.
+You can use the Master Card and Visa picture from the `assets/img` folder.
 
 **Example**
 ```js
@@ -246,9 +247,9 @@ PS: If you want your own picture instead, you can do it yourself with this pictu
 
 ## State | `Dice`
 
-Create a `Dice` component that display a random picture (example: `'/img/dice3.png'`). Then everytime the user clicks on the component:
-- An empty picture is displayed (`'/img/dice-empty.png'`) 
-- 1 second later, a new random picture is displayed (example: `'/img/dice6.png'`).
+Create a `Dice` component that display a random picture (example: `'img/dice3.png'`). Then everytime the user clicks on the component:
+- An empty picture is displayed (`'img/dice-empty.png'`) 
+- 1 second later, a new random picture is displayed (example: `'img/dice6.png'`).
 
 **Example**
 ```js
@@ -308,7 +309,7 @@ It takes 1 props:
 Create a `FaceBook` component that displays the list of all profiles from `src/data/berlin.json`. You will probably have to write: 
 
 ```js
-import profiles from './data/berlin.json'
+import profiles from 'data/berlin.json'
 ```
 
 **Example**

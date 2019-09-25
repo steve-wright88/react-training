@@ -1,0 +1,8 @@
+.oddEven {
+  display: flex;
+  justify-content: center;
+}
+.oddEven section {
+  padding: 50px;
+  border: 1px solid black;
+}
